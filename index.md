@@ -4,15 +4,18 @@ layout: default
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a second year linguistics Bachelor student at the University of Helsinki with a minor in translation
+("Käännöstiede ja kääntäminen", opintokokonaisuus). I am interested in phonetics and plan on applying for the 
+Master'a Programme in Linguistic Diversity and Digital Humanities with a focus on phonetics.
+
 
 ## Find me on
 
-[LinkedIn](https://fi.linkedin.com/mouse-mousekewitz), [GitHub](https://github.com/mokewitz)
+[LinkedIn](https://www.linkedin.com/in/sanni-lotta-tabell-137843243/), [GitHub](https://github.com/sannitabell)
 
 ## Contact
 
-My email address is of the form first_name.last_name@helsinki.fi. 
+email: sanni-lotta.tabell@helsinki.fi 
 
 ## Courses I've Taken
 

@@ -65,8 +65,8 @@ In upper secondary school (lukio), I also took language studies in **Mandarin Ch
 Now, as a student at the University of Helsinki, I have also started taking **Ancient Greek** courses.
 I still dream of studying **Polish**, **Icelandic**, and **Italian**!
  
-On my free time I like to read books and play video games–like the _Assassin's Creed_ franchise
-([_Origins_](https://store.ubisoft.com/eu/assassins-creed-origins/592450934e0165f46c8b456a.html?lang=en-SK) and [_Odyssey_](https://store.ubisoft.com/eu/assassins-creed-odyssey/5afda5f788a7e34d25b5012f.html?lang=en_US).
+In my free time I like to read books and play video games–like the _Assassin's Creed_ franchise
+([_Origins_](https://store.ubisoft.com/eu/assassins-creed-origins/592450934e0165f46c8b456a.html?lang=en-SK) and [_Odyssey_](https://store.ubisoft.com/eu/assassins-creed-odyssey/5afda5f788a7e34d25b5012f.html?lang=en_US)).
  My favourite authors are [_Donna Tartt_](https://www.britannica.com/biography/Donna-Tartt),
  [_Hanya Yanagihara_](https://www.prhspeakers.com/speaker/hanya-yanagihara), and [_Margaret Atwood_](https://margaretatwood.ca/).
 I am also keen on drawing, and my weapon of choice is [digital art](https://www.clipstudio.net/en/?gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2pZgQlEykcGVW2i70IEww727QtmD6SnX6nosqlEd2VZ1tzDrZE-XYMaAizVEALw_wcB) as well as pencil drawings.

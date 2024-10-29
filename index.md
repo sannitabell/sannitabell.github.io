@@ -4,9 +4,9 @@ layout: default
 
 ## Introduction
 
-I am a second year [linguistics Bachelor student](https://studies.helsinki.fi/tutkintorakenne/koulutusohjelma/otm-026f8e43-2dd6-4d77-9ced-9abd26c349fd?cpId=hy-lv-75) 
+I am a second year [linguistics Bachelor student](https://www.helsinki.fi/fi/koulutusohjelmat/kielten-kandiohjelma/opiskelu/opintosuunnat#lingvistiikka) 
 at the University of Helsinki with a minor in [translation](https://studies.helsinki.fi/tutkintorakenne/opintokokonaisuus/otm-ef876837-31d0-44f0-a22d-adb32a8c8868?cpId=hy-lv-74). I am interested in phonetics and plan on applying for the 
-[Master'a Programme in Linguistic Diversity and Digital Humanities](https://www.helsinki.fi/en/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme) with a focus on phonetics.
+[Master's Programme in Linguistic Diversity and Digital Humanities](https://www.helsinki.fi/en/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme) with a focus on phonetics.
 
 
 ## Find me on

@@ -18,7 +18,7 @@ Master'a Programme in Linguistic Diversity and Digital Humanities with a focus o
 email: sanni-lotta.tabell@helsinki.fi 
 
 ## Courses I've Taken
-###Ongoing
+### Ongoing
 
 [Command-Line Tools for Linguists](https://studies.helsinki.fi/courses/course-implementation/hy-opt-cur-2425-261401a1-c550-4436-91b9-7edf4a1a3b57), fall 2024
 
@@ -28,7 +28,7 @@ email: sanni-lotta.tabell@helsinki.fi
 
 [Puheen analyysin perusteet](https://studies.helsinki.fi/kurssit/toteutus/otm-f6bb35f3-b2db-485b-8bad-288a1bd5fead), fall 2024
 
-###Upcoming
+### Upcoming
 
 [Johdatus digitaalisiin ihmistieteisiin](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2425-3cd28bb6-ab6b-45d1-859e-d4c4b55535d3), spring 2025
 
@@ -40,7 +40,7 @@ email: sanni-lotta.tabell@helsinki.fi
 
 [Terminologian perusteet](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2425-83917bc9-a695-4182-b4d5-66be88ba88b5), spring 2025
 
-###Past
+### Past
 
 [Mathematics for Linguists](https://studies.helsinki.fi/courses/course-implementation/hy-opt-cur-2324-e7622986-09b2-4dee-a67e-ceec2009389d), spring 2024
 

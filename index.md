@@ -59,9 +59,9 @@ email: sanni-lotta.tabell@helsinki.fi
 
 As a linguistics student, I am a language enthusiast. My first language is **Finnish**, and my strongest second language is [English].
 Since the second official language in Finland is **Swedish**, I have been studying it for a while as well.
-In lower secondary school (yläkoulu), I began studying **German**, in which I completed the advanced exam (pitkä oppimäärä) 
-as part of my matriculation examination (ylioppilaskirjoitukset).
-In upper secondary school (lukio), I also took language studies in **Mandarin Chinese**\, **Russian**\, and **Latin**. 
+In lower secondary school (_yläkoulu_), I began studying **German**, in which I completed the advanced exam (_pitkä oppimäärä_) 
+as part of my matriculation examination (_ylioppilaskirjoitukset_).
+In upper secondary school (_lukio_), I also took language studies in **Mandarin Chinese**\, **Russian**\, and **Latin**. 
 Now, as a student at the University of Helsinki, I have also started taking **Ancient Greek** courses.
 I still dream of studying **Polish**, **Icelandic**, and **Italian**!
  

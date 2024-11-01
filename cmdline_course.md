@@ -29,19 +29,19 @@ and this page that you are currently reading.
 The first step into working in a command-line interface is setting it up. We
 followed detailed instructions provided by our teachers. During the week also got
 familiar with working in the Terminal and with files. Here are some basic–but 
-very important–commands we learned:  
+very important–commands we learned:
 
-`whoami` - check your username
-`pwd` - print the name of current directory you are working in
-`ls` - list the contents of the directory
-`wget link` - fetch files from the web
-`mkdir` - create a directory
-`mv filename target` - move file, can also be used to rename files
-`cd` - change directory
-`rm` - remove a file
-`cat filename` - view text file by printing its contents into the terminal
-`less filename` - view text file in less
-`nano filename` - view and edit text file in nano  
+`whoami` - check your username  
+`pwd` - print the name of current directory you are working in  
+`ls` - list the contents of the directory  
+`wget link` - fetch files from the web  
+`mkdir` - create a directory  
+`mv filename target` - move file, can also be used to rename files  
+`cd` - change directory  
+`rm` - remove a file  
+`cat filename` - view text file by printing its contents into the terminal  
+`less filename` - view text file in less  
+`nano filename` - view and edit text file in nano
 
 # Week 2
 

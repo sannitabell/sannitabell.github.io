@@ -351,4 +351,5 @@ This | is | a | table
 1 | 2 | 3 | 4
 
 I know how to attach images, as well:
+
 ![alt text](https://ih1.redbubble.net/image.2487151117.5780/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg "Bye bye!")

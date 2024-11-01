@@ -292,4 +292,44 @@ do
 done < "$1"
 ```
 
+### Week 6 | Installing software and automating tasks
 
+Our focus on week 6 was largely how to install programs. We learned such commands
+as `apt-get install`, `pip install` (for Python pachages), and `brew install` 
+(for Mac users).
+
+Oftentimes, when you want to install something with `apt-get`, you must be a root
+user. To become a root user temporarily,  we can use `sudo`. Before doing so,
+you must set a root user password for yourself. This is done by executing `sudo password`.
+Now, you can install packages as a root user like this: `sudo apt-get install`.
+
+To install Python packages, like nltk (Natural Language Tool Kit),
+we can use `pip install`. This package in particular constains a multitude of
+useful applications for us linguists.
+
+During week 6, we also learned how to use `make` for building other programs, 
+libraries, and other projects, like corpus collections. For example, we created
+this Python file that deletes all metadata from given books.
+
+```python
+from sys import argv, stderr
+
+START = "*** START OF THIS PROJECT GUTENBERG EBOOK"
+STOP  = "*** END OF THIS PROJECT GUTENBERG EBOOK"
+
+if __name__=="__main__":
+    if len(argv) != 3:
+        print("USAGE: %s input_file output_file" % argv[0], file=stderr)
+        exit(1)
+
+    ifile = open(argv[1])
+    ofile = open(argv[2],"w")
+    printing = 0
+    for line in ifile:
+        if STOP in line:
+            break
+        if printing: 
+            print(line,end="",file=ofile)
+        if START in line:
+            printing = 1
+````

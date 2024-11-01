@@ -137,3 +137,159 @@ Here is an example of chaining multiple commands together withs pipes:
 - Sort the results in numerical order with `sort -nr`
 
 Piping in useful for increasing efficiency and flexibility while working in Terminal.
+
+### Week 5 | Scripts
+
+To make processing data even more convenient, instead of writing and re-writing
+lines of commands in the terminal, we can put it into a script file and run that
+whenever needed. During week 5, we learned how to create simple **.sh** files 
+(Bash files) to process text files.
+
+First we created a bash script that takes one argument, an English adjective and prints its comparative form. In this case, we are only dealing with adjectives ending in consonants, such as dark - darker or new - newer.
+
+```python
+#! /bin/bash
+
+#script: comparative_step1.sh
+#author: Sanni-Lotta Tabell (October 2024)
+#
+#Gets adjective ending in a consonant from input and attaches suffix "-er" to it.
+#Print output to standard output.
+
+
+#Abort the script if argument is missing:
+if [ $# -ne 1 ]
+then
+    echo "ERROR: Command line argument required: adjective!"
+    echo "$0 adjective"
+    exit 1
+fi
+
+adjective=$1
+
+#Abort the script if adjective does not end in a consonant:
+if [[ $adjective =~ [aeiouy]$ ]]
+then
+    echo "ERROR: The adjective must end in a consonant!"
+    exit 1
+fi
+
+result="${adjective}er"
+echo "$result"
+```
+
+Then we created a bash script that includes a while loop and that given a text file as an argument, reads every line and prints it in the terminal.
+
+```python
+! /bin/bash
+
+#script: comparative_step2.sh
+#author: Sanni-Lotta Tabell (October 2024)
+#
+#Reads every line of given text file and prints it in the terminal.
+
+
+#Abort the script if argument is missing:
+if [ $# -ne 1 ]
+then
+    echo "ERROR: Command line argument required: text file!"
+    echo "$0 file.txt"
+    exit 1
+fi
+
+#Abort the script if argument is not a file:
+if [ ! -f "$1" ]
+then
+    echo "ERROR: File not found!"
+    exit 1
+fi
+
+while read -r line
+do
+    echo "$line"
+done < "$1"
+```
+
+Next we combined the two previous scripts in a brand new script **comparative_step3.sh** and made it so that the script takes the attached adjectives.txt file as an argument and prints its comparative form.
+
+```python
+#! /bin/bash
+
+#script: comparative_step3.sh
+#author: Sanni-Lotta Tabell (October 2024)
+#
+#Reads every line of given text file, takes its comparative form and prints it in the terminal.
+
+
+#Abort the script if argument is missing:
+if [ $# -ne 1 ]
+then
+    echo "ERROR: Command line argument required: text file!"
+    echo "$0 file.txt"
+    exit 1
+fi
+
+#Abort the script if argument is not a file:
+if [ ! -f "$1" ]
+then
+    echo "ERROR: File not found!"
+    exit 1
+fi
+
+while read -r adjective
+do
+    result="${adjective}er"
+    echo "$result"
+done < "$1"
+```
+
+Finally we created a script that also takes into consideration irregular comparative forms.
+
+```python
+! /bin/bash
+
+#script: comparative_step4.sh
+#author: Sanni-Lotta Tabell (October 2024)
+#
+#Reads every line of given text file, takes its comparative for and prints it in the terminal.
+
+
+#Abort the script if argument is missing:
+if [ $# -ne 1 ]
+then
+    echo "ERROR: Command line argument required: text file!"
+    echo "$0 file.txt"
+    exit 1
+fi
+
+#Abort the script if argument is not a file:
+if [ ! -f "$1" ]
+then
+    echo "ERROR: File not found!"
+    exit 1
+fi
+
+while read -r adjective
+do
+    if [[ $adjective =~ [aeiouy]$ ]]
+    then
+       if [[ $adjective =~ y$ ]]
+       then
+          result=$(echo "$adjective" | awk '{sub(/y$/, "ier"); print}')
+       else
+           result="${adjective}r"
+       fi
+    else
+        if [[ $adjective =~ [^aeiou][aeiou][kptgbd]$ ]]
+        then
+            dup="${adjective: -1}"
+            result="${adjective}${dup}er"
+        else
+            result="${adjective}er"
+        fi
+    fi
+    echo "$result"
+done < "$1"
+```
+
+

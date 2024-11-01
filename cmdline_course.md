@@ -106,3 +106,34 @@ we can find this pattern "man"
 
 or a more specific pattern, like "$man^"  
 > this is mad **man** mango mangroove  
+
+### Week 4 | Applying text processing tools to corpus data analysis
+
+After learning regex, we can now use it to manipulate text files. A good utility
+for doing so it `sed` (stream editor). Here's what we can do with it:
+
+1. Substituting a string of text (like "abc") with another ("xyz") in a text file:  
+`sed 's/abc/xyz/g' filename.txt`
+
+2. Deleting specific lines of text, like line 5:  
+`sed '5d' filename.txt`
+
+3. Printing specific lines, like lines 2 to 7:  
+`sed -n '2,7p' filename.txt`
+
+4. Inserting or appending text, like adding "Bye" after every line containing "Hello":  
+`sed '/Hello/a Bye' filename.txt`
+
+5. Transforming text, like converting all lowercase letters to uppercase:  
+`sed 's/[a-z]/\U&/g' filename.txt`
+
+Another important and useful feature we learned is using "|" to pipe commands.
+Here is an example of chaining multiple commands together withs pipes:  
+`cat filename.txt | grep "error" | sort | uniq -c | sort -nr`  
+- Display contents of `filename.txt` with `cat`
+- Find lines containing "error" with `grep`
+- Sort those lines with `sort`
+- Remove duplicates with `uniq -c`
+- Sort the results in numerical order with `sort -nr`
+
+Piping in useful for increasing efficiency and flexibility while working in Terminal.

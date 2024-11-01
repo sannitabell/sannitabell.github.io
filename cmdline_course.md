@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 ## Command-Line Tools for Linguists
 
 This course is aimed at students in the Bachelor's program in Linguists,

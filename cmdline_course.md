@@ -100,7 +100,9 @@ patterns, filtering specific language features, and parsing large datasets effic
 
 From a piece of text like this  
 > this is mad man mango magroove  
+
 we can find this pattern "man"  
 > this is mad **man** **man**go **man**groove  
+
 or a more specific pattern, like "$man^"  
 > this is mad **man** mango mangroove  

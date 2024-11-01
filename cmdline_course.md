@@ -91,16 +91,16 @@ and widely-used encoding system. It is a variable-length encoding and uses betwe
 bytes per character. All ASCII text is valid in UTF-8 because it uses only 1 byte 
 per ASCII character.
 
-This is how to convert a text file encoding from _ASCII_ to _UTF-8_:
+This is how to convert a text file encoding from _ASCII_ to _UTF-8_:  
 `iconv -f ISO-8859-1 -t UTF-8 unputfile.txt -o outputfile.txt`
 
 As mentioned, we also learned regex, which is an important tool in language 
 technology. Regex allows us to search, exctract, and manipulate text by identifying
 patterns, filtering specific language features, and parsing large datasets efficiently.
 
-From a piece of text like this
-> this is mad man mango magroove
-we can find this pattern "man"
-> this is mad **man** **man**go **man**groove
-or a more specific pattern, like "$man^"
-> this is mad **man** mango mangroove
+From a piece of text like this  
+> this is mad man mango magroove  
+we can find this pattern "man"  
+> this is mad **man** **man**go **man**groove  
+or a more specific pattern, like "$man^"  
+> this is mad **man** mango mangroove  

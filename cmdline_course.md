@@ -333,3 +333,22 @@ if __name__=="__main__":
         if START in line:
             printing = 1
 ````
+
+### Week 7 | GitHub
+
+During the last week of our course we learned how to set up and manage GitHub
+repositories and how to build webpages, like this one, using GitHub pages.
+
+Naturally, we also learned how to format the content of the page using markdown.
+Earlier on this page you can see how I've formatted text into different types of
+header, lists, and highlighted code.
+
+We also learned how to make tables:
+
+This | is | a | table
+--- | --- | --- | ---
+**kinda** | _cool_ | **isn't** | _it_
+1 | 2 | 3 | 4
+
+I know how to attach images, as well:
+![alt text](https://ih1.redbubble.net/image.2487151117.5780/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg "Bye bye!")
